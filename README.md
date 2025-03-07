@@ -18,8 +18,8 @@ This is a **Next.js** authentication app that integrates **Clerk** for user auth
 ## ⚡ Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/Mayankkamriya/Next.js_Auth_with_Clerk.git
+cd Next.js_Auth_with_Clerk
 ```
 
 ### 2️⃣ Install Dependencies
@@ -52,18 +52,18 @@ The app will be available at `http://localhost:3000`.
 3. Once authenticated, Clerk creates a user session.
 4. Next.js middleware ensures protected pages are only accessible to logged-in users.
 5. User data is stored in Firebase Firestore.
-<!-- 
+
 ## 📂 Project Structure
 ```plaintext
-📦 your-project-name
-├── 📁 components         # Reusable UI components
+📦 project-name
+├── 📁 lib                # Contains Firebase configuration
+│   ├── firebase.js       # Firebase setup file
 ├── 📁 pages              # Next.js pages (index, login, dashboard)
 ├── 📁 middleware         # Clerk Middleware for protected routes
-├── 📁 firebase.js        # Firebase configuration
 ├── 📁 styles            # Styling (Tailwind CSS)
 ├── .env.local           # Environment variables
 └── README.md            # Documentation
-``` -->
+```
 
 <!-- ## 🚀 Deployment
 To deploy the app on **Vercel**, run:
