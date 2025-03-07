@@ -13,10 +13,18 @@ export default function Home() {
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Welcome to Home</h1>
       <SignInButton mode="redirect">
-        <button style={{ padding: "10px 20px", fontSize: "16px" }}>
+        <button style={{ padding: "10px 20px", fontSize: "16px", marginRight: "10px" }}>
           (Login with Google)
         </button>
       </SignInButton>
+
+
+      <button
+        style={{ padding: "10px 20px", fontSize: "16px", backgroundColor: "#007bff", color: "white", border: "none", cursor: "pointer" }}
+        onClick={() => router.push("/about")}
+      >
+        Go to About Page
+      </button>
     </div>
   );
 }
